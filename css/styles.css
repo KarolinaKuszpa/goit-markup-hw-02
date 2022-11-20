@@ -1,11 +1,9 @@
 :root {
-  --blue: var(--blue) #2196f3;
-  --white: var(--#ffffff);
-  --black: var(--black);
+  --brand-color: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .logoheader {
@@ -19,10 +17,10 @@ body {
   text-decoration: none;
 }
 .webstyl {
-  color: var(--blue);
+  color: #2196f3;
 }
 .studiostyl {
-  color: var(--black);
+  color: black;
 }
 .about-us {
   font-size: 14px;
@@ -30,13 +28,13 @@ body {
   line-height: 1.14;
   letter-spacing: 2%;
   text-decoration: none;
-  color: var(--black)
+  color: black;
 }
 .about-us :hover {
-  color: var(--blue)
+  color: #2196f3;
 }
 .about-us-link {
-  color: var(--black)
+  color: black;
 }
 
 .contact {
@@ -53,7 +51,7 @@ body {
 
 .contactlink:hover,
 .contactlink:focus {
-  color: var(--blue)
+  color: #2196f3;
 }
 
 .main {
@@ -62,11 +60,11 @@ body {
   line-height: 1.6;
   letter-spacing: 3%;
 }
-button {
-  color: var(--blue)
+.button {
+  color: black;
 }
 button:hover {
-  background-color: var(--blue)
+  background-color: #2196f3;
   color: white;
 }
 .text-style {
@@ -147,7 +145,6 @@ h1 {
   color: rgba(255, 255, 255, 1);
   background-color: #2f303a;
 }
-
 .contact-footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
