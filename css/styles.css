@@ -8,6 +8,7 @@
   --tekststyle:#212121;
   --pagesignature: #757575;
   --imagesstyle: #212121;
+  --background-color: #F5F4Fa;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -24,9 +25,10 @@ body {
   vertical-align: top;
   text-decoration: none;
 }
-.webstyl {
+.webstyle {
   color: var(--color);
 }
+
 .studiostyl {
   color: var(--black);
 }
@@ -68,13 +70,14 @@ body {
   line-height: 1.6;
   letter-spacing: 3%;
 }
-button {
-  color: var(--black);
+.main button{
+    color: var(--black);
 }
-button:hover {
-  background-color: var(--blue);
+.main button :hover {
+background-color: var(--blue);
   color: var(--white);
 }
+  
 .text-style {
   font-family: "Roboto", sans-serif;
   font-style: Bold;
@@ -141,18 +144,35 @@ button:hover {
   letter-spacing: 3%;
   color: (var(--pagesignature))
 }
-
-h1 {
+.h1-style {
+  background-color: var(--dark)
+}
+.h1-style h1{  
   font-family: "Roboto", sans-serif;
-  width: 696px;
+  width: 696;
   height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
   letter-spacing: 6%;
-  text-align: center;
   color: var(--white);
-  background-color: var(--dark)
+  background-color: var(--dark);
+}
+.main button {
+  color: var(--black);
+}
+.main button:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+.h1-style button{
+  color: var(--white);
+  background-color: var(--color);
+
+}
+.h1-style button:hover {
+  background-color: var(--blue);
+  color: var(--white);
 }
 .contact-footer {
   font-family: "Roboto", sans-serif;
@@ -165,9 +185,9 @@ h1 {
   color: var(--white)
 }
 
-footer {
+.background-style {
   background-color: var(--dark);
 }
-main-style {
-background: #2f303a;
+.our-team {
+  background-color: var(--background-color)
 }
