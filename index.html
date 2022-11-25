@@ -18,21 +18,21 @@
   </head>
   <body>
     <header>
-      <a class="logoheader" href="index.html"><span class="webstyle">Web</span><span class="studiostyl">Studio</span></a
-        >
+     <span class="logo">Web</span><span class="studio-black">Studio</span>
         <nav>
-          <ul>
+        <a href="index.html"></a>
+          <ul class="nav-list">
             <li>
-          <a class="about-us" href="index.html"><span class="about-us-link">Agencja</span></a></li>
+          <a href="#"><span>Agencja</span></a></li>
           <li>
-            <a class="about-us" href="portfolio.html">Portfolio<span class="about-us-link"></span></a></li>
+            <a href="portfolio.html"><span>Portfolio</span></a></li>
             <li>
-              <a class="about-us" href="index.html"><span class="about-us-link">Kontakt</span></a></li>
+              <a href="#"><span>Kontakt</span></a></li>
           </ul>
       </nav>
-      <ul>
-        <li><a class="contact" href="index.html"><span class="contactlink">info@devstudio.com</span></a></li>
-        <li><a class="contact" href="index.html"><span class="contactlink">+48 111 111 111</span></a></li>
+      <ul class="contacts-list">
+        <li><a href= mailto:info@devstudio.com>info@devstudio.com</a></li>
+        <li><a href= tel:+48111111111>tel:+48111111111</a></li>
       </ul>
     </header>
    <main>
@@ -42,8 +42,7 @@
    <button type="button">Zamów usługę</button>
    </section>
   </section>
-      <section>
-        <h2>Czym się zajmujemy</h2>
+      <section class="articles"> 
         <ul>
           <li>
             <h3>LOREM IPSUM</h3>
@@ -88,6 +87,7 @@
         </ul>
       </section>
       <section>
+        <h2>Czym się zajmujemy</h2>
         <div>
         <ul>
           <li>
@@ -123,73 +123,66 @@
           </div>
       </section>
        <section class="our-team">
-        <h2>Nasz zespół</h2>
-         <figure>
-          <figcaption>
-            <ul>
-              <li>
-          <img
-                src="images/first-employee-produktdesigner.jpg"
-                width="810"
-                height="780"
-                alt="First-employee-ProduktDesigner">
-                <div><span class="images-style">John Doe</span></div>
-                <span class="position">Product Designer</span>
-               </li>
-              </ul>
-          </figcaption>
-            </figure>
-            <figure>
-              <figcaption>
+        <h2>Nasz zespół</h2> 
         <ul>
           <li>
+            <figure>
+              <img
+              src="images/first-employee-produktdesigner.jpg"
+              width="270"
+              height="260"
+              alt="First-employee-ProduktDesigner">
+              <figcaption>
+              <div><span class="team-member">John Doe</span></div>
+              <span class="team-position">Product Designer</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
               <img
                 src="images/second-employee-frontentdeveloper.jpg"
-                width="810"
-                height="780"
-                alt="Second-employee-FrontentDeveloper"
-              />
-          <div><span class="images-style">John Doe</span></div>
-<span class="position">Frontend Developer</span>
+                width="270"
+                height="260"
+                alt="Second-employee-FrontentDeveloper">
+                <figcaption>
+          <div><span class="team-member">John Doe</span></div>
+<span class="team-position">Frontend Developer</span>
+                </figcaption>
+            </figure>
           </li>
-        </ul>
-            </figcaption>
-          </figure>
-          <figure>
-            <figcaption>
-        <ul>
           <li>
+            <figure>
               <img
                 src="images/third-employee-marketing.jpg"
-                width="810"
-                height="780"
+                width="270"
+                height="260"
                 alt="Third-employee-Marketing">
-                <div><span class="images-style">John Doe</span></div>
-                <span class="position">Marketing</span>
-              </li>
-        </ul>
-            </figcaption>
+                <figcaption>
+                <div><span class="team-member">John Doe</span></div>
+                <span class="team-position">Marketing</span>
+              </figcaption>
             </figure>
-        <figure>
-          <figcaption>
-          <ul>
+          </li>
           <li>
+            <figure>
               <img
                 src="images/fourth-employee-uldesigner.jpg"
-                width="810"
-                height="780"
+                width="270"
+                height="260"
                 alt="Fourth-employee-UlDesigner">
-              <div><span class="images-style">John Doe</span></div>
-              <span class="position">Ul First-employee-ProduktDesigner</span>
-              </li>
+                <figcaption>
+              <div><span class="team-member">John Doe</span></div>
+              <span class="team-position">ProduktDesigner</span>
+                </figcaption>
+            </figure>
+          </li>
         </ul>
-          </figcaption>
-      </figure>
       </section>
     </main>
       <footer>
         <section class="background-style">
-          <div><a class="logofooter" href="index.html"><span class="webcolor">Web</span><span class="studiocolor">Studio</span></a></div>
+          <div><a class="logofooter"><span class="logo">Web</span><span class="studio-white">Studio</span></a></div>
           <div><a class="logofooter"><span class="adres-contact">m. Warszawa, Aleje Jerozolimskie 21</span></a></div>
          <div><a class="contact-footer" href="index.html"><span class="footer-link">info@devstudio.com</span></a></div>
          <div><a class="contact-footer" href="index.html"><span class="footer-link">+48 111 111 111</span></a></div>
