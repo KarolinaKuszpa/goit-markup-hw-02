@@ -9,6 +9,8 @@
   --pagesignature: #757575;
   --imagesstyle: #212121;
   --background-color: #f5f4fa;
+  --mailcolor
+
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -29,10 +31,6 @@ body {
   line-height: 1.7;
   letter-spacing: 3%;
   color: var(--pagesignature);
-}
-.logo {
-  color: var(--color);
-  text-decoration: none;
 }
 
 .studio-black {
@@ -80,12 +78,13 @@ body {
   text-decoration: none;
 }
 
-.contacts-list :hover {
+.contacts-list li > a:hover {
   color: var(--blue);
 }
-.contacts-list :focus {
+.contacts-list li > a:focus {
   color: var(--blue);
 }
+
 .main {
   font-size: 16px;
   font-weight: 500;
@@ -118,11 +117,6 @@ body {
   color: var(--pagesignature);
 }
 
-.logofooter {
-  width: 1600px;
-  height: 252px;
-  background-color: var(--dark);
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -132,13 +126,17 @@ body {
   color: var(--color);
 }
 
-.adres-contact {
+.contacts-list {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 3%;
   color: var(--white);
+}
+.contacts-list address {
+  font-style: normal;
 }
 .team-member {
   font-family: "Roboto", sans-serif;
@@ -160,10 +158,10 @@ body {
   letter-spacing: 3%;
   color: var(--pagesignature);
 }
-.h1-style {
+.order {
   background-color: var(--dark);
 }
-.h1-style h1 {
+.order h1 {
   font-family: "Roboto", sans-serif;
   width: 696;
   height: 120px;
@@ -185,37 +183,24 @@ body {
   color: var(--white);
   background-color: var(--color);
 }
-.h1-style button:hover {
+.order button:hover {
   background-color: var(--blue);
   color: var(--white);
 }
-.contact-footer {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 3%;
-  text-decoration: none;
-}
-.footer-link {
+
+
+.underline {
+  text-decoration: underline;
   color: var(--gray);
 }
-
-.footer-link :hover {
-  color: var(--blue);
-}
-.footer-link :focus {
-  color: var(--blue);
-}
-.contact-footer :hover {
-  color: var(--blue);
-}
-.contact-footer :focus {
+.underline:hover {
   color: var(--blue);
 }
 
 .background-style {
   background-color: var(--dark);
+  width: 1600px;
+  height: 252px;
 }
 .our-team {
   background-color: var(--background-color);
@@ -223,4 +208,26 @@ body {
 .mailstyle {
   text-decoration: underline;
   color: var(--gray);
+}
+.background-style p{
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 3%;
+color:var(--white)
+}
+.background-style a {
+  font-family: "Roboto", sans-serif;
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+}
+.background-style{
+  color: var(--color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: 3%;
 }
